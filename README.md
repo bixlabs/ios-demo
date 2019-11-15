@@ -6,7 +6,7 @@ Samples:
 - TODO <a href="/"> **Accessibility**</a> <br />
 - TODO <a href="/"> **Apple TV**</a> <br /> 
 - TODO <a href="/"> **Apple Watch**</a> <br />
-- <a href="//Demos/iOSArchitectures"> **Architectures**</a> <br />
+- <a href="/Demos/iOSArchitectures"> **Architectures**</a> <br />
 - <a href="/Demos/ARKitDemos"> **Arkit**</a> <br />
 - TODO <a href="/"> **Bluetooth**</a> <br />
 - TODO <a href="/"> **Camera**</a> <br />
