@@ -6,6 +6,7 @@ Samples:
 - TODO <a href="/"> **Accessibility**</a> <br />
 - TODO <a href="/"> **Apple TV**</a> <br /> 
 - TODO <a href="/"> **Apple Watch**</a> <br />
+- <a href="//Demos/iOSArchitectures"> **Architectures**</a> <br />
 - <a href="/Demos/ARKitDemos"> **Arkit**</a> <br />
 - TODO <a href="/"> **Bluetooth**</a> <br />
 - TODO <a href="/"> **Camera**</a> <br />
@@ -18,7 +19,6 @@ Samples:
 - TODO <a href="/"> **Machine Learning**</a> <br />
 - TODO <a href="/"> **Metal**</a> <br />
 - TODO <a href="/"> **Maps**</a> <br />
-- TODO <a href="/"> **MVVM**</a> <br />
 - TODO <a href="/"> **Photo**</a> <br />
 - <a href="/Demos/SwiftUI&Combine"> **SwiftUI & Combine**</a> <br />
 - TODO <a href="/"> **Videos**</a> <br />
