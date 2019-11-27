@@ -11,7 +11,7 @@ Samples:
 - TODO <a href="/"> **Bluetooth**</a> <br />
 - TODO <a href="/"> **Camera**</a> <br />
 - TODO <a href="/"> **Extensions**</a> <br />
-- TODO <a href="/"> **Face Tracking**</a> <br />
+- <a href="/Demos/FaceTracking "> **Face Tracking**</a> <br />
 - TODO <a href="/"> **Games**</a> <br />
 - TODO <a href="/"> **Health kit**</a> <br />
 - TODO <a href="/"> **iBeacon**</a> <br />
