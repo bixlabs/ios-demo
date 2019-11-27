@@ -9,5 +9,17 @@
 import Foundation
 
 final class HomeInteractor : HomeInteractorInterface {
+    var presenter: HomeOutputInteractorInterface?
     
+    var homeManagmentService: HomeManagmentService
+    
+    init() {
+        homeManagmentService = HomeManagmentService()
+    }
+    
+    func fetchtHomeData() {
+        homeManagmentService.getHomeData { (homeEntity) in
+            self.presenter?.onGetHomeData(homeEntity)
+        }
+    }
 }

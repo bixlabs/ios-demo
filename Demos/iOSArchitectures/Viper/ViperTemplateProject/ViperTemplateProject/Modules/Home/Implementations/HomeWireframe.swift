@@ -29,7 +29,7 @@ final class HomeWireframe: HomeWireframeInterface {
         let presenter = HomePresenter(wireframe: self, view: homeViewController, interactor:interactor)
         
         homeViewController.presenter = presenter
-        
+        interactor.presenter = presenter
         return homeViewController
     }
     
@@ -38,7 +38,7 @@ final class HomeWireframe: HomeWireframeInterface {
 // MARK: - Home Wireframe Interface Requirements -
 extension HomeWireframe {
     
-    func navigateToNextViewController() {
-        os_log("Navigate to nex viewcontroller", log: OSLog.default, type: .debug)
+    func navigateToNextViewController(_ data: HomeEntity) {
+        os_log("Navigate to next viewcontroller with title %s", data.title)
     }
 }

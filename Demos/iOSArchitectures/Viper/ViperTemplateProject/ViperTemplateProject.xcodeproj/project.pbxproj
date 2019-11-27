@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		097C9A34238EF28D002AF996 /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097C9A33238EF28D002AF996 /* HomeEntity.swift */; };
+		097C9A37238EF347002AF996 /* ManagmentServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097C9A36238EF347002AF996 /* ManagmentServiceProtocol.swift */; };
+		097C9A39238EF423002AF996 /* HomeManagmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097C9A38238EF423002AF996 /* HomeManagmentService.swift */; };
 		09FD714822FB80DE004F5027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FD714622FB80DE004F5027 /* Main.storyboard */; };
 		09FD714D22FB80E0004F5027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FD714B22FB80E0004F5027 /* LaunchScreen.storyboard */; };
 		09FD715B22FC1F40004F5027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FD715A22FC1F40004F5027 /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		097C9A33238EF28D002AF996 /* HomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntity.swift; sourceTree = "<group>"; };
+		097C9A36238EF347002AF996 /* ManagmentServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagmentServiceProtocol.swift; sourceTree = "<group>"; };
+		097C9A38238EF423002AF996 /* HomeManagmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeManagmentService.swift; sourceTree = "<group>"; };
 		09FD713F22FB80DE004F5027 /* ViperTemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperTemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FD714722FB80DE004F5027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09FD714C22FB80E0004F5027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		097C9A31238EF09E002AF996 /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				097C9A32238EF0BB002AF996 /* Home */,
+			);
+			path = Domains;
+			sourceTree = "<group>";
+		};
+		097C9A32238EF0BB002AF996 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				097C9A33238EF28D002AF996 /* HomeEntity.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		097C9A35238EF2F5002AF996 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				097C9A36238EF347002AF996 /* ManagmentServiceProtocol.swift */,
+				097C9A38238EF423002AF996 /* HomeManagmentService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		09FD713622FB80DE004F5027 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +104,8 @@
 				09FD715C22FC1F61004F5027 /* Application */,
 				09FD715F22FC207A004F5027 /* Common */,
 				09FD716922FC25DA004F5027 /* Modules */,
+				097C9A31238EF09E002AF996 /* Domains */,
+				097C9A35238EF2F5002AF996 /* Service */,
 				09FD714622FB80DE004F5027 /* Main.storyboard */,
 				09FD714B22FB80E0004F5027 /* LaunchScreen.storyboard */,
 				09FD715922FC1F40004F5027 /* Resources */,
@@ -215,7 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				097C9A37238EF347002AF996 /* ManagmentServiceProtocol.swift in Sources */,
 				09FD716822FC207A004F5027 /* InteractorInterface.swift in Sources */,
+				097C9A39238EF423002AF996 /* HomeManagmentService.swift in Sources */,
 				09FD717322FC25DA004F5027 /* HomeWireframe.swift in Sources */,
 				09FD715E22FC1F61004F5027 /* AppDelegate.swift in Sources */,
 				09FD717522FC25DA004F5027 /* HomePresenter.swift in Sources */,
@@ -224,6 +259,7 @@
 				09FD716522FC207A004F5027 /* PresenterInterface.swift in Sources */,
 				09FD717422FC25DA004F5027 /* HomeInterfaces.swift in Sources */,
 				09FD717122FC25DA004F5027 /* HomeViewController.swift in Sources */,
+				097C9A34238EF28D002AF996 /* HomeEntity.swift in Sources */,
 				09FD717222FC25DA004F5027 /* HomeInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

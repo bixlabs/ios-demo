@@ -26,6 +26,12 @@ final class HomePresenter: HomeViewDelegateInterface {
 
 extension HomePresenter {
     func didPressOK() {
-        _wireframe.navigateToNextViewController()
+        _interactor?.fetchtHomeData()
+    }
+}
+
+extension HomePresenter: HomeOutputInteractorInterface {
+    func onGetHomeData(_ data: HomeEntity) {
+        _wireframe.navigateToNextViewController(data)
     }
 }
